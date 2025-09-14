@@ -12,15 +12,17 @@
 
    **unzip** (Is needed for unpacking the downloaded file)
 
+   **bsdtar/libarchive** (Is needed for unpacking the Widevine lib)
+
    **git** (Is needed for fetching this script)
 
    **jq** (Is needed for parsing JSON from github)
 
-	For Debian-based systems: `sudo apt install curl unzip git jq`
+	For Debian-based systems: `sudo apt install curl unzip libarchive-tools git jq`
 
-	For Arch-based systems: `sudo pacman -S curl unzip git jq`
+	For Arch-based systems: `sudo pacman -S curl unzip libarchive git jq`
 
-	For RedHat-based systems: `sudo dnf install curl unzip git jq`
+	For RedHat-based systems: `sudo dnf install curl unzip bsdtar git jq`
 	
 3. (*Optional*) **python3-dnf-plugin-post-transaction-actions** (Is needed for autoupdate in RedHat-based systems)
 	`dnf install python3-dnf-plugin-post-transaction-actions`
@@ -29,7 +31,7 @@
 
 1. Clone this repo
 
-    `git clone https://github.com/Ld-Hagen/fix-opera-linux-ffmpeg-widevine.git`
+    `git clone https://github.com/Ryan659/fix-opera-linux-ffmpeg-widevine.git`
 
 2. Go to the repo root folder
 
@@ -47,7 +49,7 @@
 
 1. Clone this repo
 
-    `cd /tmp && git clone https://github.com/Ld-Hagen/fix-opera-linux-ffmpeg-widevine.git`
+    `cd /tmp && git clone https://github.com/Ryan659/fix-opera-linux-ffmpeg-widevine.git`
 
 2. Go to the repo root folder
 
